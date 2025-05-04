@@ -32,6 +32,7 @@
         "activeTab",
         "contextMenus",
         "notifications",
-        "storage"
+        "storage",
+        "clipboardWrite"
     ]
 }
