@@ -2,6 +2,9 @@ var callback = function(templateMessage) {
     console.log("Inserting template: " + templateMessage);
     let activeElem = document.activeElement;
 
+    // Copy template message to clipboard
+    navigator.clipboard.writeText(templateMessage);
+
     // Element handling
     switch (activeElem.tagName.toLocaleLowerCase()) {
         case "textarea":
